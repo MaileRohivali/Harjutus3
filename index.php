@@ -68,7 +68,7 @@
 
     <?php
     $age = "15";
-    echo "Ma olen $age-e aastane";
+    echo "Ma olen {$age}aastane";
     echo "<br>";
     ?>
 
