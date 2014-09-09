@@ -27,7 +27,7 @@
 
     <?php $number = "24";
           $number2 = "26";
-       echo "$number $number2";
+       echo "$number.$number2";
        echo "<br>";
     ?>
 
@@ -49,6 +49,14 @@
        echo "<li>" . $student5 . "</li>";
       ?>
     </ul>
+
+    <?php 
+    $firstName = "Maile";
+    $lastName = "Rohiväli";
+    $fullName = "$firstName $lastName";
+
+    echo "$fullName";
+    ?>
 
   </body>
 </html>
