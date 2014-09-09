@@ -16,6 +16,20 @@
      echo "<br>";
     ?>
 
-       
+    <h1>Stringid</h1>
+    <?php echo "Hello world!";
+    echo "<br>";
+    ?>
+
+    <?php echo 'veel stringe'; 
+    echo "<br>";?>
+
+
+    <?php $number = "24";
+          $number2 = "26";
+       echo "$number $number2";
+       echo "<br>";
+    ?>
+
   </body>
 </html>
