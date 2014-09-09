@@ -62,6 +62,13 @@
     <?php 
     $test = "Test";
     echo "$test, kas interpolatsioon töötab";
+    echo "<br>";
+
+    ?>
+
+    <?php
+    $age = "15";
+    echo "Ma olen $age-e aastane";
     ?>
 
   </body>
