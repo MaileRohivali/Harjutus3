@@ -69,7 +69,26 @@
     <?php
     $age = "15";
     echo "Ma olen $age-e aastane";
+    echo "<br>";
     ?>
+
+    <?php
+    $source = "see tekst on SUUR";
+    $upper = strtoupper($source);
+    $lower = strtolower($upper);
+    echo "$lower";
+    echo "<br>";
+
+    echo ucfirst($source); 
+    echo "<br>";
+    echo ucwords($source);
+    echo "<br>";
+    echo strlen($source);
+    echo "<br>";
+    echo "A" . trim(" B C D E") . "F";
+    ?>
+
+
 
   </body>
 </html>
