@@ -113,7 +113,31 @@
     echo "<br>";
 
     // Suvaline number vahemikus 7 - 22:
-    echo rand(7, 22); ?>
+    echo rand(7, 22); ?><br>
+    <?php $sample_nr = 45; ?><br>
+    <?php $sample_nr = 45;
+    $sample_nr = $sample_nr + 5;
+    echo $sample_nr; ?> <br>
+    <?php $sample_nr2 = 45;
+    $sample_nr2 += 5;
+    echo $sample_nr2; ?><br>
+    <?php $sample_nr2 = 45;
+    $sample_nr2 -= 5; 
+    echo $sample_nr2; ?><br>
+    <?php $sample_nr3 = 45; 
+    $sample_nr3 *= 5; 
+    echo $sample_nr3; ?><br>
+
+    <?php $sample_nr2 = 45;
+    $sample_nr2 /= 5; 
+    echo $sample_nr2; ?><br>
+
+    <h2>Numbri ja stringi liitmine</h2>
+    <?php echo 5 . " teksapüksid"; ?><br>
+    <?php echo 5 + " teksapüksid"; ?><br>
+    <?php echo 5 + "5"; ?><br>
+    <?php echo 5 + "7 teksapüksi"; ?><br>
+    
 
 
 
