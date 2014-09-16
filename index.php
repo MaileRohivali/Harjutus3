@@ -88,6 +88,33 @@
     echo "A" . trim(" B C D E") . "F";
     ?>
 
+    <h2>Täisarvud</h2>
+    <?php $nr1 = 5;
+    $nr2 = 10;
+    echo ($nr1 + $nr2)*3 ; ?> <br>
+    <?php echo abs(-300) ?> <br>
+     <?php
+    // Viis ruudus:
+    echo pow(5, 2); ?><br>
+
+    // Seitse kuubis:
+    <?php echo pow(7, 3); ?><br>
+
+    // Kolm astmel seitse:
+    <?php echo pow(3, 7); ?><br>
+    <?php
+    // Ruutjuur 25-st:
+    echo sqrt(25); ?><br>
+    <?php
+    // Suvaline number
+    echo rand();
+
+    // Lihtsalt reavahetus, et vältida segadust piiranguteta ja piiranguga numbritel vahet tegemisel.
+    echo "<br>";
+
+    // Suvaline number vahemikus 7 - 22:
+    echo rand(7, 22); ?>
+
 
 
   </body>
